@@ -16,7 +16,7 @@ class LargeCard extends React.Component {
 				</header>
 				<p>{this.props.description}.</p>
 				<footer>
-					<a href="#" className="button special">More</a>
+					<a href="#" className="button special">Coming Soon!</a>
 				</footer>
 			</article>
 		)

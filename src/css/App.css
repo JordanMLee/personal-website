@@ -2592,6 +2592,10 @@ input[type="radio"] + label:before {
 .box.person .image img {
 	max-width: 100%;
 }
+.box.person .button {
+	background-color: #6692c8;
+	padding-bottom: 0;
+}
 
 
 /* Image */

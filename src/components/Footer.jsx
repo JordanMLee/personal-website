@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Moment from 'react-moment';
-import {FaFacebook, FaTwitter, FaLinkedin, FaPinterest, FaVimeo} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
 
 class Footer extends Component {
 	render() {
@@ -12,11 +12,7 @@ class Footer extends Component {
 							<a href="#">Jordan Lee</a> | <Moment format="MMM-D-YYYY h:mma"/> <a href="#" />
 						</div>
 						<ul className="icons">
-							<li><a href="#" ><span><FaFacebook/></span></a></li>
-							<li><a href="#"><span><FaLinkedin/></span></a></li>
-							<li><a href="#"><span><FaTwitter/></span></a></li>
-							<li><a href="#"><span><FaPinterest/></span></a></li>
-							<li><a href="#"><span><FaVimeo/></span></a></li>
+							<li><a href="https://www.linkedin.com/in/jordan-lee-a71933163/"><span><FaLinkedin/></span></a></li>
 						</ul>
 					</div>
 				</div>

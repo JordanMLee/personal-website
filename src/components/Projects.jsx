@@ -12,7 +12,6 @@ class Projects extends Component {
 		super();
 		this.state = {
 			pictures: {
-
 				jordan:selfie,
 				python:python,
 				react_logo:react_logo,
@@ -30,10 +29,29 @@ class Projects extends Component {
 						<p>I really like to code cool things</p>
 					</header>
 					<div className="flex flex-4">
-						<Card image={this.state.pictures.jordan} name={"Jordan"} description={"this is my personal bio"}/>
-						<Card image={this.state.pictures.python} name={"Machine Learninig projects"} description={"Examples of my data analytics skills"}/>
-						<Card image={this.state.pictures.react_logo} name={"React projects"} description={"Check them out here!"}/>
-						<Card image={this.state.pictures.gym} name={"Hobbies"} description={"some action shots over the years"}/>
+						<Card image={this.state.pictures.jordan}
+							  name={"Jordan"} description={"Check it below!"}
+							  link={"https://github.com/JordanMLee/resume/blob/master/Jordan_Lee_CS_Resume.pdf"}
+							  buttonLabel="Resume"
+						/>
+						<Card image={this.state.pictures.python}
+							  name={"Machine Learninig projects"}
+							  description={"Examples of my data analytics skills against various dataset"}
+							  link={"https://www.kaggle.com/jml584"}
+							  buttonLabel="Kaggle"
+						/>
+						<Card image={this.state.pictures.react_logo}
+							  name={"React projects"}
+							  description={"Check them out here!"}
+							  link={"https://github.com/JordanMLee"}
+							  buttonLabel="Github"
+						/>
+						<Card image={this.state.pictures.gym}
+							  name={"LeetCode"}
+							  description={"I would rather be rock climbing"}
+							  link={"https://leetcode.com/jordan_lee/"}
+							  buttonLabel="Profile"
+						/>
 
 					</div>
 				</div>

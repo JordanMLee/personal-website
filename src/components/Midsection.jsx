@@ -28,8 +28,16 @@ class Midsection extends Component {
 						<p>Let learn new things together!</p>
 					</header>
 					<div className="flex flex-2">
-						<LargeCard image={this.state.pictures.coding} title={this.state.title1} description={this.state.description1}/>
-						<LargeCard image={this.state.pictures.data} title={this.state.title2} description={this.state.description2} />
+						<LargeCard image={this.state.pictures.coding}
+								   title={this.state.title1}
+								   description={this.state.description1}
+
+						/>
+
+						<LargeCard image={this.state.pictures.data}
+								   title={this.state.title2}
+								   description={this.state.description2}
+						/>
 					</div>
 				</div>
 			</section>
